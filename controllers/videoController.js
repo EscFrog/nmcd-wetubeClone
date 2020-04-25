@@ -1,5 +1,6 @@
+import { videos } from "../db";
 export const videoHome_ctrl = (req, res) =>
-	res.render("home", { pageTitle: "Home" });
+	res.render("home", { pageTitle: "Home", videos });
 
 export const searchVideo_ctrl = (req, res) => {
 	// const searchingBy = req.query.term; //ES6 이전의 방식

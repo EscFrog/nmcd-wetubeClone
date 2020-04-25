@@ -2,4 +2,6 @@ extends layouts/main
 
 block content
     .videos
-        h1 Video
+        each item in videos // each [변수] in [배열] 키워드를 통해 반복할 수 있다
+            h1= item.title
+            p= item.description
