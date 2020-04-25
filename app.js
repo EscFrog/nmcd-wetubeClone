@@ -19,7 +19,7 @@ app.use(morgan("dev"));
 app.use(localsMiddleware);
 
 app.use(routes.home, globalRouter);
-app.use(routes.users, userRouter); // 이 부분 때문에 routes.users 값에 할당된 "/users" 가 주소 앞에 붙어야함.
+app.use(routes.users, userRouter); // 이 부분 때문에 routes.users 값에 할당된 "/users" 가 주소가 사용되면, userRouter 변수에 할당된 express.Router()라는 함수 객체가 콜백으로 호출된다.
 app.use(routes.videos, videoRouter); // 이 부분 때문에 routes.videos값에 할당된 "/videos" 가 주소 앞에 붙어야함
 
 export default app;
