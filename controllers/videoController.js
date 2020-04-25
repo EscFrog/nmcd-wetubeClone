@@ -1,7 +1,7 @@
-export const videoHome = (req, res) =>
+export const videoHome_ctrl = (req, res) =>
 	res.render("home", { pageTitle: "Home" });
 
-export const searchVideo = (req, res) => {
+export const searchVideo_ctrl = (req, res) => {
 	// const searchingBy = req.query.term; //ES6 이전의 방식
 	const {
 		query: { term: searchingBy },
@@ -9,14 +9,14 @@ export const searchVideo = (req, res) => {
 	res.render("search", { pageTitle: "Search", searchingBy });
 };
 
-export const upload = (req, res) =>
+export const upload_ctrl = (req, res) =>
 	res.render("upload", { pageTitle: "Upload" });
 
-export const videoDetail = (req, res) =>
+export const videoDetail_ctrl = (req, res) =>
 	res.render("videoDetail", { pageTitle: "Video Detail" });
 
-export const editVideo = (req, res) =>
+export const editVideo_ctrl = (req, res) =>
 	res.render("editVideo", { pageTitle: "Edit Video" });
 
-export const deleteVideo = (req, res) =>
+export const deleteVideo_ctrl = (req, res) =>
 	res.render("deleteVideo", { pageTitle: "Delete Video" });
