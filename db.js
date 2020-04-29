@@ -4,7 +4,8 @@ export const videos = [
 		title: "Awesome video",
 		description: "This is the movie that I like",
 		views: 24,
-		videoFile: "https://archive.org/details/BigBuckBunny_124",
+		videoFile:
+			"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
 		creator: {
 			id: 123912,
 			name: "Walter",
@@ -16,7 +17,8 @@ export const videos = [
 		title: "Super video",
 		description: "This is the movie that I like",
 		views: 24,
-		videoFile: "https://archive.org/details/BigBuckBunny_124",
+		videoFile:
+			"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
 		creator: {
 			id: 123912,
 			name: "Walter",
@@ -28,7 +30,8 @@ export const videos = [
 		title: "Nice video",
 		description: "This is the movie that I like",
 		views: 24,
-		videoFile: "https://archive.org/details/BigBuckBunny_124",
+		videoFile:
+			"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
 		creator: {
 			id: 123912,
 			name: "Walter",
@@ -40,7 +43,8 @@ export const videos = [
 		title: "Perfect video",
 		description: "This is the movie that I like",
 		views: 24,
-		videoFile: "https://archive.org/details/BigBuckBunny_124",
+		videoFile:
+			"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
 		creator: {
 			id: 123912,
 			name: "Walter",
