@@ -7,7 +7,7 @@ export const searchVideo_ctrl = (req, res) => {
 	const {
 		query: { term: searchingBy },
 	} = req;
-	res.render("search", { pageTitle: "Search", searchingBy });
+	res.render("search", { pageTitle: "Search", searchingBy, videosDB });
 };
 
 export const upload_ctrl = (req, res) =>
