@@ -18,8 +18,11 @@ export const postJoin_ctrl = (req, res) => {
 	}
 };
 
-export const login_ctrl = (req, res) =>
+export const getLogin_ctrl = (req, res) =>
 	res.render("login", { pageTitle: "Log in" });
+export const postLogin_ctrl = (req, res) => {
+	res.redirect(routes.home);
+};
 
 export const logout_ctrl = (req, res) =>
 	res.render("logout", { pageTitle: "Log out" });
